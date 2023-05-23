@@ -495,9 +495,9 @@
             ]
           }),
           (0, o.jsx)('a', {
-            href: 'https://app.certux.fi/',
+            href: 'https://test.certux.xyz/earlyBird',
             target: '_blank',
-            children: (0, o.jsx)(b, { className: 'text-xl !leading-10 font-[500]', children: 'Join Now' })
+            children: (0, o.jsx)(b, { className: 'text-xl !leading-10 font-[500]', children: 'Early Bird' })
           }),
           (0, o.jsxs)('div', {
             className: 'flex gap-2 items-center px-3 py-2 mt-4 cursor-pointer',

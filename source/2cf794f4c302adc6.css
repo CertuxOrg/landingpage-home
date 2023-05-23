@@ -2323,7 +2323,6 @@ body, html {
 .bottom-button-own button {
   width: 100%;
   margin-top: 10px;
-  height: 50px;
   border-radius: 80px;
   display: block;
 }
@@ -2334,7 +2333,6 @@ body, html {
   }
 
   .bottom-button-own button {
-    height: 50px;
     margin-top: 30px;
   }
 
@@ -2349,7 +2347,6 @@ body, html {
   }
 
   .bottom-button-own button {
-    height: 60px;
     margin-top: 30px;
   }
 
@@ -2470,7 +2467,6 @@ body, html {
   }
 
   .bottom-button-own button {
-    height: 60px;
     margin-top: 30px;
   }
 
@@ -2708,7 +2704,6 @@ body, html {
   }
 
   .bottom-button-own button {
-    height: 60px;
     margin-top: 30px;
   }
 
@@ -2903,10 +2898,6 @@ body, html {
 @media (min-width: 1280px) {
   .bottom-button-own {
     width: 500px;
-  }
-
-  .bottom-button-own button {
-    height: 80px;
   }
 
   .xl\:col-span-2 {
