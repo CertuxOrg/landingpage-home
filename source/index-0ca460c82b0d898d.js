@@ -1310,44 +1310,51 @@
         }
         return (0, o.jsxs)('div', {
           className: ''.concat(A, ' relative bg-grid-lines bg-contain bg-left bg-no-repeat'),
-          children: [(0, o.jsx)('div', {
-            className: 'absolute top-0 flex items-center gap-4',
-            children: t.map((function (e, t) {
-              return (0, o.jsx)('div', {
-                onClick: function () {return function (e) {r(e), a.current.slickGoTo(e)}(t)},
-                className: ' z-10 cursor-pointer text-xl lgDesktop:text-2xl leading-7 font-recoleta font-normal '.concat(n == t ? 'text-nexter-white border-b-[2px] border-nexter-white' : 'text-white-light-200', ' '),
-                children: e.title
-              }, t)
-            }))
-          }), (0, o.jsx)(ne.Z, oe(oe({}, l), {}, {
-            ref: a,
-            children: t.map((function (e, t) {
-              return (0, o.jsx)('div', {
-                className: 'mx-6',
-                children: (0, o.jsx)(re, { content: e })
-              }, t)
-            }))
-          }))]
+          children: [
+            (0, o.jsx)('div', {
+              className: 'absolute top-0 flex items-center gap-4',
+              children: t.map((function (e, t) {
+                return (0, o.jsx)('div', {
+                  onClick: function () {return function (e) {r(e), a.current.slickGoTo(e)}(t)},
+                  className: ' z-10 cursor-pointer text-xl lgDesktop:text-2xl leading-7 font-recoleta font-normal '.concat(n == t ? 'text-nexter-white border-b-[2px] border-nexter-white' : 'text-white-light-200', ' '),
+                  children: e.title
+                }, t)
+              }))
+            }),
+            (0, o.jsx)(ne.Z, oe(oe({}, l), {}, {
+              ref: a,
+              children: t.map((function (e, t) {
+                return (0, o.jsx)('div', {
+                  className: 'mx-6',
+                  children: (0, o.jsx)(re, { content: e })
+                }, t)
+              }))
+            }))]
         })
       },
       ce = function () {
-        var e = [{
-          title: 'Crypto',
-          description: 'Predict on $BTC, $ETH, $BNB and $MATIC prices',
-          imageUrl: '/images/prediction-1.png'
-        }, {
-          title: 'Commodities',
-          imageUrl: '/images/prediction-2.png',
-          description: 'Predict on GOLD and SILVER prices'
-        }, {
-          title: 'Quests',
-          description: 'Bet on real world events like sports, politics and crypto',
-          imageUrl: '/images/prediction-3.png'
-        }, {
-          title: 'Vaults',
-          imageUrl: '/images/prediction-4.png',
-          description: 'Automate your predictions using vaults and earn high  APYs'
-        }]
+        var e = [
+          {
+            title: 'Crypto',
+            description: 'Predict on $BTC, $ETH, $BNB and $MATIC prices',
+            imageUrl: '/images/prediction-1.png'
+          },
+          {
+            title: 'Commodities',
+            imageUrl: '/images/prediction-2.png',
+            description: 'Predict on GOLD and SILVER prices'
+          },
+          {
+            title: 'Quests',
+            description: 'Bet on real world events like sports, politics and crypto',
+            imageUrl: '/images/prediction-3.png'
+          },
+          {
+            title: 'Vaults',
+            imageUrl: '/images/prediction-4.png',
+            description: 'Automate your predictions using vaults and earn high  APYs'
+          }
+        ]
         return (0, o.jsxs)('div', {
           className: 'flex flex-col lg:pl-12 lgDesktop:pl-[100px] bg-grid-bg bg-cover bg-center mt-10 md:mt-0 mx-4 md:mx-0 bg-no-repeat mb-10 md:mb-0',
           children: [(0, o.jsx)(Q, { text: 'Explore Markets' }), (0, o.jsx)(R, {
@@ -1359,35 +1366,39 @@
       de = function () {
         var e = (0, s.useState)(0), t = e[0], A = e[1],
           i = {
+            // 0: {
+            //   handle: '@0xkhan_',
+            //   imageURL: './images/JXGKFcO__400x400.jpeg',
+            //   info: 'I have been exploring Certux for quite some time and I am thoroughly impressed. The platform is user-friendly and provides in-depth insights into various market trends and events. It\u2019s amazing to see how accurate the predictions can be. The market data and analysis provided have helped me make accurate predictions. The No-loss feature and prediction vaults are exceptional. Certux is truly a game-changer!',
+            //   companyName: 'Polygon',
+            //   twitterLink: 'https://twitter.com/0xkhan_',
+            //   companyLink: 'https://polygon.technology/'
+            // },
             0: {
-              handle: '@0xkhan_',
-              imageURL: './images/JXGKFcO__400x400.jpeg',
-              info: 'I have been exploring Certux for quite some time and I am thoroughly impressed. The platform is user-friendly and provides in-depth insights into various market trends and events. It\u2019s amazing to see how accurate the predictions can be. The market data and analysis provided have helped me make accurate predictions. The No-loss feature and prediction vaults are exceptional. Certux is truly a game-changer!',
-              companyName: 'Polygon',
-              twitterLink: 'https://twitter.com/0xkhan_',
-              companyLink: 'https://polygon.technology/'
-            }, 1: {
               handle: '@AlexiAtlas',
               imageURL: './images/tf2xgiu7_400x400.jpeg',
               info: 'I have been using Certux (prev Bhavish) for quite sometime now and have been extremely impressed with its prediction accuracy and ease of use. Certux\u2019s built-in analytics tools have also been extremely helpful in identifying profitable trades and making accurate predictions. The user interface is intuitive and easy to navigate, making it simple for me to track my prediction portfolio. Overall, a neat DeFi prediction protocol.',
               companyName: 'Quickswap',
               twitterLink: 'https://twitter.com/AlexiAtlas',
               companyLink: 'https://quickswap.exchange/#/'
-            }, 2: {
+            },
+            1: {
               handle: '@daisugist',
               imageURL: './images/lRmXoLeB_400x400.jpeg',
               info: 'Cements its lead in the industry by bringing the lossless prediction experience to Polygon users, and we are excited to be able to secure their prediction markets with Kleros\u2019s decentralized court technology!',
               companyName: 'Kleros',
               twitterLink: 'https://twitter.com/daisugist',
               companyLink: 'https://kleros.io/'
-            }, 3: {
+            },
+            2: {
               handle: '@TherealSpatrick',
               imageURL: './images/a17UNna3_400x400.jpeg',
               info: 'I have known about Certux for quite some time since it\'s leading the charge in the decentralised prediction market space, offering a seamless and intuitive platform that allows users to easily predict outcomes for a wide range of markets, including crypto, commodities, and sporting events. And after shipping amazing features like automated predictions I\'m more excited than ever to see how Certux will shape the future for no-loss prediction markets!',
               companyName: 'Gelato',
               twitterLink: 'https://twitter.com/TherealSpatrick',
               companyLink: 'https://www.gelato.network/'
-            }, 4: {
+            },
+            3: {
               handle: '@yeskay_01',
               imageURL: './images/YZSsIjaM_400x400.jpeg',
               info: 'Certux is an excellent product for anyone interested in crypto predictions. The app\'s interface was intuitive and easy to navigate, and I was able to quickly find the information I needed to make accurate predictions. The app\'s use of gamification to create no-loss predictions was one of the things that stood out to me. Even automated prediction vaults are a fantastic improvement. Overall, I found Certux to be a well-designed and user-friendly platform in Web3.',
@@ -1398,83 +1409,97 @@
           },
           n = Object.keys(i).length
         return (0, o.jsx)('div', {
-          className: 'bg-white', children: (0, o.jsx)('section', {
-            className: 'overflow-hidden', children: (0, o.jsx)('div', {
-              className: 'relative px-6 pb-12 mx-auto max-w-7xl lg:px-8 lg:pb-20', children: (0, o.jsxs)('div', {
+          className: 'bg-white',
+          children: (0, o.jsx)('section', {
+            className: 'overflow-hidden',
+            children: (0, o.jsx)('div', {
+              className: 'relative px-6 pb-12 mx-auto max-w-7xl lg:px-8 lg:pb-20',
+              children: (0, o.jsxs)('div', {
                 className: 'relative flex items-center flex-col lg:grid lg:grid-rows-2 gap-x-[128px]',
                 style: { gridTemplateColumns: '15% 1fr' },
-                children: [(0, o.jsxs)('div', {
-                  className: 'flex flex-col items-center justify-center',
-                  style: { gridArea: '1 / 1 / 2 / 2' },
-                  children: [(0, o.jsx)('div', {
-                    className: 'flex-shrink-0', children: (0, o.jsx)('a', {
-                      href: i[t].companyLink, target: '_blank', children: (0, o.jsx)('img', {
-                        className: 'h-[60px] w-[60px] rounded-full',
-                        src: i[t].imageURL,
-                        alt: ''
+                children: [
+                  (0, o.jsxs)('div', {
+                    className: 'flex flex-col items-center justify-center',
+                    style: { gridArea: '1 / 1 / 2 / 2' },
+                    children: [(0, o.jsx)('div', {
+                      className: 'flex-shrink-0',
+                      children: (0, o.jsx)('a', {
+                        href: i[t].companyLink,
+                        target: '_blank',
+                        children: (0, o.jsx)('img', {
+                          className: 'h-[60px] w-[60px] rounded-full',
+                          src: i[t].imageURL,
+                          alt: ''
+                        })
                       })
-                    })
-                  }), (0, o.jsx)('div', {
-                    className: 'mt-4 lg:ml-0',
-                    children: (0, o.jsx)('a', {
-                      href: i[t].twitterLink,
-                      target: '_blank',
-                      children: (0, o.jsx)('div', {
-                        className: 'text-base font-oldschool text-nexter-white lg:text-2xl',
-                        children: i[t].handle
+                    }),
+                      (0, o.jsx)('div', {
+                        className: 'mt-4 lg:ml-0',
+                        children: (0, o.jsx)('a', {
+                          href: i[t].twitterLink,
+                          target: '_blank',
+                          children: (0, o.jsx)('div', {
+                            className: 'text-base font-oldschool text-nexter-white lg:text-2xl',
+                            children: i[t].handle
+                          })
+                        })
+                      }),
+                      (0, o.jsx)('div', {
+                        className: 'mt-2 lg:ml-0',
+                        children: (0, o.jsx)('a', {
+                          href: i[t].companyLink,
+                          target: '_blank',
+                          children: (0, o.jsx)('div', {
+                            className: 'text-sm md:text-lg opacity-[.64] font-oldschool text-nexter-white',
+                            children: i[t].companyName
+                          })
+                        })
                       })
-                    })
-                  }), (0, o.jsx)('div', {
-                    className: 'mt-2 lg:ml-0',
-                    children: (0, o.jsx)('a', {
-                      href: i[t].companyLink,
-                      target: '_blank',
-                      children: (0, o.jsx)('div', {
-                        className: 'text-sm md:text-lg opacity-[.64] font-oldschool text-nexter-white',
-                        children: i[t].companyName
+                    ]
+                  }),
+                  (0, o.jsxs)('div', {
+                    className: 'text-base leading-[28px] lg:text-[28px] lg:h-[356px] h-[307px] lg:leading-[56px] font-recoleta text-nexter-white text-center',
+                    style: { gridArea: '1 / 2 / 3 / 3' },
+                    children: [
+                      (0, o.jsx)('span', {
+                        className: ' text-[40px] leading-10',
+                        children: '\u201c'
+                      }), i[t].info, (0, o.jsx)('span', { className: ' text-[40px] leading-10', children: '\u201d' })
+                    ]
+                  }),
+                  (0, o.jsxs)('div', {
+                    className: 'flex gap-2 items-center justify-center mt-36 smMobile:mt-6 lg:mt-[134px]',
+                    style: { gridArea: '2 / 1 / 3 / 2' },
+                    children: [
+                      (0, o.jsx)('img', {
+                        className: 'cursor-pointer',
+                        quality: 100,
+                        src: './source/plusarrow.png',
+                        alt: 'solution',
+                        width: '40px',
+                        height: '40px',
+                        onClick: function () {
+                          return A(0 === t ? n - 1 : t - 1)
+                        }
+                      }),
+                      (0, o.jsxs)('div', {
+                        className: 'text-nexter-white text-opacity-40 text-2xl font-[300]',
+                        children: [(0, o.jsxs)('span', {
+                          className: 'text-nexter-white',
+                          children: ['0', t + 1]
+                        }), '/0', n]
+                      }),
+                      (0, o.jsx)('img', {
+                        className: 'cursor-pointer',
+                        quality: 100,
+                        src: './source/minusarrow.png',
+                        alt: 'solution',
+                        width: '40px',
+                        height: '40px',
+                        onClick: function () {return A((t + 1) % n)}
                       })
-                    })
+                    ]
                   })]
-                }), (0, o.jsxs)('div', {
-                  className: 'text-base leading-[28px] lg:text-[28px] lg:h-[356px] h-[307px] lg:leading-[56px] font-recoleta text-nexter-white text-center',
-                  style: { gridArea: '1 / 2 / 3 / 3' },
-                  children: [(0, o.jsx)('span', {
-                    className: ' text-[40px] leading-10',
-                    children: '\u201c'
-                  }), i[t].info, (0, o.jsx)('span', { className: ' text-[40px] leading-10', children: '\u201d' })]
-                }), (0, o.jsxs)('div', {
-                  className: 'flex gap-2 items-center justify-center mt-36 smMobile:mt-6 lg:mt-[134px]',
-                  style: { gridArea: '2 / 1 / 3 / 2' },
-                  children: [
-                    (0, o.jsx)('img', {
-                      className: 'cursor-pointer',
-                      quality: 100,
-                      src: './source/plusarrow.png',
-                      alt: 'solution',
-                      width: '40px',
-                      height: '40px',
-                      onClick: function () {
-                        return A(0 === t ? n - 1 : t - 1)
-                      }
-                    }),
-                    (0, o.jsxs)('div', {
-                      className: 'text-nexter-white text-opacity-40 text-2xl font-[300]',
-                      children: [(0, o.jsxs)('span', {
-                        className: 'text-nexter-white',
-                        children: ['0', t + 1]
-                      }), '/0', n]
-                    }),
-                    (0, o.jsx)('img', {
-                      className: 'cursor-pointer',
-                      quality: 100,
-                      src: './source/minusarrow.png',
-                      alt: 'solution',
-                      width: '40px',
-                      height: '40px',
-                      onClick: function () {return A((t + 1) % n)}
-                    })
-                  ]
-                })]
               })
             })
           })
