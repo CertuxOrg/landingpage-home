@@ -948,50 +948,57 @@
         }
         return (0, o.jsxs)('div', {
           className: 'flex flex-col items-center gap-8 sm:items-start lg:gap-10 lg:px-[46px]',
-          children: [(0, o.jsx)('div', {
-            className: 'flex flex-wrap justify-center w-full gap-4 md:gap-8 md:justify-between lg:gap-24 md:flex-nowrap',
-            children: e([{
-              title: 'Lack of Accessibility in Decentralized Prediction Markets',
-              bgImage: 'bg-glass-effect',
-              titleColor: 'text-cyan',
-              numberIcon: '/icons/icon-1.svg',
-              content: 'Traditional prediction markets can be complex and difficult to navigate, especially for users who aren\'t familiar with the underlying technologies or concepts. Certux aims to solve this by providing easy onboarding tools and a user-friendly platform that\'s accessible to users of all technical backgrounds.',
-              imageUrl: '/images/pot-plant-icon.png'
-            }, {
-              title: 'Limited Play-and-Earn Opportunities in Prediction Markets',
-              bgImage: 'bg-glass-effect-2',
-              titleColor: 'text-yellow',
-              numberIcon: './icons/icon-2.svg',
-              content: 'There are limited opportunities for users to earn rewards in traditional prediction markets. Certux addresses this by intertwining play-and-earn elements with prediction markets, offering multiple predictions in a single round and betting in both directions.',
-              imageUrl: '/images/lock-icon.png'
-            }])
-          }), (0, o.jsx)('div', {
-            className: 'flex justify-center w-full',
-            children: e([{
-              title: 'Crypto Market Volatility Risks',
-              titleColor: 'text-nexter-purple',
-              numberIcon: '/icons/icon-3.svg',
-              content: 'The volatility of the crypto market can pose significant risks to users. Certux provides a solution by allowing users to bet in both directions, thereby mitigating some of the risks associated with crypto market volatility.',
-              imageUrl: '/images/cpu-icon.png'
-            }])
-          }), (0, o.jsx)('div', {
-            className: 'flex flex-wrap justify-center w-full gap-8 md:justify-between lg:gap-24 md:flex-nowrap',
-            children: e([{
-              title: 'Inefficiencies in Maximizing Returns',
-              titleColor: 'text-parrot-green',
-              numberIcon: '/icons/icon-4.svg',
-              bgImage: 'bg-lack-bg-effect',
-              content: 'There is a lack of efficient tools to help users maximize their returns in prediction markets. Certux aims to solve this problem through their automated prediction vaults, which execute automated prediction strategies to generate returns on user deposits.',
-              imageUrl: '/images/compatibility.png'
-            }, {
-              title: 'No mobile support',
-              bgImage: 'bg-mobile-bg-effect',
-              titleColor: 'text-green',
-              numberIcon: '/icons/icon-5.svg',
-              content: 'Most prediction markets are designed for the web and have complex UI/UX issues that result in bad user experience.',
-              imageUrl: '/images/phone-icon.png'
-            }])
-          })]
+          children: [
+            (0, o.jsx)('div', {
+              className: 'flex flex-wrap justify-center w-full gap-4 md:gap-8 md:justify-between lg:gap-24 md:flex-nowrap',
+              children: e([
+                {
+                  title: 'Lack of Accessibility in Decentralized Prediction Markets',
+                  bgImage: 'bg-glass-effect',
+                  titleColor: 'text-cyan',
+                  numberIcon: '/icons/icon-1.svg',
+                  content: 'Traditional prediction markets can be complex and difficult to navigate, especially for users who aren\'t familiar with the underlying technologies or concepts. Certux aims to solve this by providing easy onboarding tools and a user-friendly platform that\'s accessible to users of all technical backgrounds.',
+                  imageUrl: '/images/pot-plant-icon.png'
+                },
+                {
+                  title: 'Limited Play-and-Earn Opportunities in Prediction Markets',
+                  bgImage: 'bg-glass-effect-2',
+                  titleColor: 'text-yellow',
+                  numberIcon: './icons/icon-2.svg',
+                  content: 'There are limited opportunities for users to earn rewards in traditional prediction markets. Certux addresses this by intertwining play-and-earn elements with prediction markets, offering multiple predictions in a single round and betting in both directions.',
+                  imageUrl: '/images/lock-icon.png'
+                }
+              ])
+            }),
+            (0, o.jsx)('div', {
+              className: 'flex justify-center w-full',
+              children: e([{
+                title: 'Crypto Market Volatility Risks',
+                titleColor: 'text-nexter-purple',
+                numberIcon: '/icons/icon-3.svg',
+                content: 'The volatility of the crypto market can pose significant risks to users. Certux provides a solution by allowing users to bet in both directions, thereby mitigating some of the risks associated with crypto market volatility.',
+                imageUrl: '/images/cpu-icon.png'
+              }])
+            }),
+            (0, o.jsx)('div', {
+              className: 'flex flex-wrap justify-center w-full gap-8 md:justify-between lg:gap-24 md:flex-nowrap',
+              children: e([{
+                title: 'Inefficiencies in Maximizing Returns',
+                titleColor: 'text-parrot-green',
+                numberIcon: '/icons/icon-4.svg',
+                bgImage: 'bg-lack-bg-effect',
+                content: 'There is a lack of efficient tools to help users maximize their returns in prediction markets. Certux aims to solve this problem through their automated prediction vaults, which execute automated prediction strategies to generate returns on user deposits.',
+                imageUrl: '/images/compatibility.png'
+              },
+                {
+                  title: 'No mobile support',
+                  bgImage: 'bg-mobile-bg-effect',
+                  titleColor: 'text-green',
+                  numberIcon: '/icons/icon-5.svg',
+                  content: 'Most prediction markets are designed for the web and have complex UI/UX issues that result in bad user experience.',
+                  imageUrl: '/images/phone-icon.png'
+                }])
+            })]
         })
       }, Y = function () {
         return (0, o.jsxs)('div', {
@@ -1002,37 +1009,42 @@
         var t = e.solution
         return (0, o.jsxs)('div', {
           className: 'container flex gap-[72px] mx-auto items-center w-full justify-center lgDesktop:gap-16 px-10',
-          children: [(0, o.jsx)('div', {
-            className: 'flex-[40%]',
-            children: (0, o.jsx)('div', {
-              className: 'relative rounded-3xl w-[527px] h-[527px]',
-              children: (0, o.jsxs)('video', {
-                id: 'videoUrl',
-                width: '100%',
-                height: '100%',
-                autoPlay: !0,
-                className: 'rounded-[40px] border-[8px] border-nexter-black',
-                muted: !0,
-                loop: !0,
-                children: [(0, o.jsx)('source', {
-                  src: '/videos/'.concat(null === t || void 0 === t ? void 0 : t.link),
-                  type: 'video/mp4'
-                }), 'Your browser does not support HTML video.']
+          children: [
+            (0, o.jsx)('div', {
+              className: 'flex-[40%]',
+              children: (0, o.jsx)('div', {
+                className: 'relative rounded-3xl w-[527px] h-[527px]',
+                children: (0, o.jsxs)('video', {
+                  id: 'videoUrl',
+                  width: '100%',
+                  height: '100%',
+                  autoPlay: !0,
+                  className: 'rounded-[40px] border-[8px] border-nexter-black',
+                  muted: !0,
+                  loop: !0,
+                  children: [(0, o.jsx)('source', {
+                    src: '/videos/'.concat(null === t || void 0 === t ? void 0 : t.link),
+                    type: 'video/mp4'
+                  }), 'Your browser does not support HTML video.']
+                })
               })
-            })
-          }), (0, o.jsx)('div', {
-            className: 'flex flex-col justify-center items-center  flex-[60%]',
-            children: (0, o.jsxs)('div', {
-              className: '',
-              children: [(0, o.jsx)('h4', {
-                className: ' font-oldschool text-2xl font-[700]  text-nexter-white mb-6 lgDesktop:text-32',
-                children: null === t || void 0 === t ? void 0 : t.title
-              }), (0, o.jsx)('p', {
-                className: 'mb-6 text-lg leading-8 font-normal font-oldschool text-white-600 max-w-[545px] lgDesktop:text-xl lgDesktop:leading-8',
-                children: null === t || void 0 === t ? void 0 : t.description
-              })]
-            })
-          })]
+            }),
+            (0, o.jsx)('div', {
+              className: 'flex flex-col justify-center items-center  flex-[60%]',
+              children: (0, o.jsxs)('div', {
+                className: '',
+                children: [
+                  (0, o.jsx)('h4', {
+                    className: ' font-oldschool text-2xl font-[700]  text-nexter-white mb-6 lgDesktop:text-32',
+                    children: null === t || void 0 === t ? void 0 : t.title
+                  }),
+                  (0, o.jsx)('p', {
+                    className: 'mb-6 text-lg leading-8 font-normal font-oldschool text-white-600 max-w-[545px] lgDesktop:text-xl lgDesktop:leading-8',
+                    children: null === t || void 0 === t ? void 0 : t.description
+                  })
+                ]
+              })
+            })]
         })
       }, K = function (e) {
         var t = e.list, A = e.classes, i = e.pageScrollIndex, n = void 0 === i ? 1 : i, r = (0, s.useRef)(null),
@@ -1630,7 +1642,7 @@
             (0, o.jsx)(q, { children: (0, o.jsx)(y, {}) }),
             (0, o.jsx)(q, { children: (0, o.jsx)(pe, {}), classes: 'm-b-0' }),
             (0, o.jsx)(he, {}),
-            (0, o.jsx)(q, { children: (0, o.jsx)(ge, {}) }),
+            // (0, o.jsx)(q, { children: (0, o.jsx)(ge, {}) }),
             (0, o.jsx)(L, {})]
         })
       }
