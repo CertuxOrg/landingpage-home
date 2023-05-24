@@ -1374,15 +1374,15 @@
             //   twitterLink: 'https://twitter.com/0xkhan_',
             //   companyLink: 'https://polygon.technology/'
             // },
+            // 0: {
+            //   handle: '@AlexiAtlas',
+            //   imageURL: './images/tf2xgiu7_400x400.jpeg',
+            //   info: 'I have been using Certux (prev Bhavish) for quite sometime now and have been extremely impressed with its prediction accuracy and ease of use. Certux\u2019s built-in analytics tools have also been extremely helpful in identifying profitable trades and making accurate predictions. The user interface is intuitive and easy to navigate, making it simple for me to track my prediction portfolio. Overall, a neat DeFi prediction protocol.',
+            //   companyName: 'Quickswap',
+            //   twitterLink: 'https://twitter.com/AlexiAtlas',
+            //   companyLink: 'https://quickswap.exchange/#/'
+            // },
             0: {
-              handle: '@AlexiAtlas',
-              imageURL: './images/tf2xgiu7_400x400.jpeg',
-              info: 'I have been using Certux (prev Bhavish) for quite sometime now and have been extremely impressed with its prediction accuracy and ease of use. Certux\u2019s built-in analytics tools have also been extremely helpful in identifying profitable trades and making accurate predictions. The user interface is intuitive and easy to navigate, making it simple for me to track my prediction portfolio. Overall, a neat DeFi prediction protocol.',
-              companyName: 'Quickswap',
-              twitterLink: 'https://twitter.com/AlexiAtlas',
-              companyLink: 'https://quickswap.exchange/#/'
-            },
-            1: {
               handle: '@daisugist',
               imageURL: './images/lRmXoLeB_400x400.jpeg',
               info: 'Cements its lead in the industry by bringing the lossless prediction experience to Polygon users, and we are excited to be able to secure their prediction markets with Kleros\u2019s decentralized court technology!',
@@ -1390,7 +1390,7 @@
               twitterLink: 'https://twitter.com/daisugist',
               companyLink: 'https://kleros.io/'
             },
-            2: {
+            1: {
               handle: '@TherealSpatrick',
               imageURL: './images/a17UNna3_400x400.jpeg',
               info: 'I have known about Certux for quite some time since it\'s leading the charge in the decentralised prediction market space, offering a seamless and intuitive platform that allows users to easily predict outcomes for a wide range of markets, including crypto, commodities, and sporting events. And after shipping amazing features like automated predictions I\'m more excited than ever to see how Certux will shape the future for no-loss prediction markets!',
@@ -1398,7 +1398,7 @@
               twitterLink: 'https://twitter.com/TherealSpatrick',
               companyLink: 'https://www.gelato.network/'
             },
-            3: {
+            2: {
               handle: '@yeskay_01',
               imageURL: './images/YZSsIjaM_400x400.jpeg',
               info: 'Certux is an excellent product for anyone interested in crypto predictions. The app\'s interface was intuitive and easy to navigate, and I was able to quickly find the information I needed to make accurate predictions. The app\'s use of gamification to create no-loss predictions was one of the things that stood out to me. Even automated prediction vaults are a fantastic improvement. Overall, I found Certux to be a well-designed and user-friendly platform in Web3.',
