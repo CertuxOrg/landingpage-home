@@ -37,17 +37,17 @@
                           className: 'flex',
                           children: [(0, o.jsx)('span', { className: 'sr-only', children: 'Certux' }), (0, o.jsx)(m, {})]
                         }),
-                        (0, o.jsx)('div', {
-                          className: 'flex justify-center w-full lg:w-auto ',
-                          children: (0, o.jsx)('a', {
-                            href: '#',
-                            className: 'flex',
-                            children: (0, o.jsx)('span', {
-                              className: 'text-xs ml-[48px] mt-[2px]',
-                              children: 'Previously Bhavish'
-                            })
-                          })
-                        })
+                        // (0, o.jsx)('div', {
+                        //   className: 'flex justify-center w-full lg:w-auto ',
+                        //   children: (0, o.jsx)('a', {
+                        //     href: '#',
+                        //     className: 'flex',
+                        //     children: (0, o.jsx)('span', {
+                        //       className: 'text-xs ml-[48px] mt-[2px]',
+                        //       children: 'Previously Bhavish'
+                        //     })
+                        //   })
+                        // })
                       ]
                     })
                   ]
@@ -435,52 +435,55 @@
         t = e[0],
         A = e[1]
       return (0, o.jsxs)('div', {
-        className: 'relative flex flex-col items-center ', children: [(0, o.jsxs)('div', {
-          className: 'relative flex items-center px-6 py-3 mb-[18px] md:mb-5 space-x-2 rounded-full lg:mb-8 bg-light-06 shadow-box-black-shadow backdrop-blur-36 ',
-          children: [
-            (0, o.jsx)('div', {
-              className: 'relative flex-shrink-0 h-8 w-7',
-              children: (0, o.jsx)(
-                'img', {
-                  quality: 100,
-                  src: './icons/bnb-icon.svg',
-                  alt: 'bnb',
-                  objectFit: 'contain',
-                  layout: 'fill',
-                  objectPosition: 'center'
-                })
-            }),
-            (0, o.jsx)('div', {
-              className: 'flex-1 min-w-0',
-              children: (0, o.jsxs)(
-                'a', {
-                  target: '_blank',
-                  href: 'https://www.bnbchain.org/en/blog/bnb-chains-european-innovation-incubator-unveils-winners/',
-                  className: 'flex focus:outline-none  tracking-[-0.03em]',
-                  children: [
-                    (0, o.jsx)(
-                      'span', {
-                        className: 'mr-1 text-sm font-[300] font-oldschool  leading-[22px] ',
-                        children: 'Graduated from'
-                      }), (0, o.jsx)(
-                      x, {
-                        text: 'BNB Chain European Innovation Incubator Program ',
-                        classes: '!text-sm !font-[500] !font-oldschool !underline underline-offset-1 !leading-[22px]'
-                      }), (0, o.jsx)(
-                      'img', {
-                        quality: 100,
-                        src: './icons/external-link.svg',
-                        alt: 'link',
-                        className: '!top-2 display-inline',
-                        width: '20px',
-                        height: '20px'
-                      }
-                    )
-                  ]
-                })
-            })
-          ]
-        }),
+        className: 'relative flex flex-col items-center ',
+        children: [
+          (0, o.jsxs)('div', {
+            // className: 'relative flex items-center px-6 py-3 mb-[18px] md:mb-5 space-x-2 rounded-full lg:mb-8 bg-light-06 shadow-box-black-shadow backdrop-blur-36 ',
+            className: 'relative flex items-center px-6 py-3 mb-[18px] md:mb-5 space-x-2 rounded-full lg:mb-8 bg-light-06 backdrop-blur-36 ',
+            children: [
+              // (0, o.jsx)('div', {
+              //   className: 'relative flex-shrink-0 h-8 w-7',
+              //   children: (0, o.jsx)(
+              //     'img', {
+              //       quality: 100,
+              //       src: './icons/bnb-icon.svg',
+              //       alt: 'bnb',
+              //       objectFit: 'contain',
+              //       layout: 'fill',
+              //       objectPosition: 'center'
+              //     })
+              // }),
+              // (0, o.jsx)('div', {
+              //   className: 'flex-1 min-w-0',
+              //   children: (0, o.jsxs)(
+              //     'a', {
+              //       target: '_blank',
+              //       href: 'https://www.bnbchain.org/en/blog/bnb-chains-european-innovation-incubator-unveils-winners/',
+              //       className: 'flex focus:outline-none  tracking-[-0.03em]',
+              //       children: [
+              //         (0, o.jsx)(
+              //           'span', {
+              //             className: 'mr-1 text-sm font-[300] font-oldschool  leading-[22px] ',
+              //             children: 'Graduated from'
+              //           }), (0, o.jsx)(
+              //           x, {
+              //             text: 'BNB Chain European Innovation Incubator Program ',
+              //             classes: '!text-sm !font-[500] !font-oldschool !underline underline-offset-1 !leading-[22px]'
+              //           }), (0, o.jsx)(
+              //           'img', {
+              //             quality: 100,
+              //             src: './icons/external-link.svg',
+              //             alt: 'link',
+              //             className: '!top-2 display-inline',
+              //             width: '20px',
+              //             height: '20px'
+              //           }
+              //         )
+              //       ]
+              //     })
+              // })
+            ]
+          }),
           (0, o.jsxs)('div', {
             className: 'max-w-[913px] z-20',
             children: [
@@ -497,21 +500,21 @@
           (0, o.jsx)('a', {
             href: 'https://test.certux.xyz/earlyBird',
             target: '_blank',
-            children: (0, o.jsx)(b, { className: 'text-xl !leading-10 font-[500]', children: 'Early Bird' })
+            children: (0, o.jsx)(b, { className: 'text-xl !leading-10 font-[500]', children: 'Join Eearly Bird' })
           }),
-          (0, o.jsxs)('div', {
-            className: 'flex gap-2 items-center px-3 py-2 mt-4 cursor-pointer',
-            onClick: function () {return A(!0)},
-            children: [
-              (0, o.jsx)('img', {
-                className: '',
-                quality: 100,
-                src: './icons/video-icon.svg',
-                alt: 'video icon', height: '32px', width: '32px'
-              }),
-              (0, o.jsx)('span', { className: 'text-base text-[#F6F6F499]', children: 'How it works' })
-            ]
-          }),
+          // (0, o.jsxs)('div', {
+          //   className: 'flex gap-2 items-center px-3 py-2 mt-4 cursor-pointer',
+          //   onClick: function () {return A(!0)},
+          //   children: [
+          //     (0, o.jsx)('img', {
+          //       className: '',
+          //       quality: 100,
+          //       src: './icons/video-icon.svg',
+          //       alt: 'video icon', height: '32px', width: '32px'
+          //     }),
+          //     (0, o.jsx)('span', { className: 'text-base text-[#F6F6F499]', children: 'How it works' })
+          //   ]
+          // }),
           (0, o.jsx)(u, { open: t, setOpen: A })]
       })
     }, w = A(4730), j = ['className', 'children']
@@ -597,104 +600,112 @@
           { name: 'Privacy policy', href: '/docs/certux-privacy-policy.pdf' },
           { name: 'Terms of Use', href: '/docs/certux-terms.pdf' }
         ],
-        social: [{
-          name: 'Telegram',
-          href: 'https://bit.ly/3l5zAAn',
-          icon: function (e) {
-            return (0, o.jsx)('svg', M(M({
-              width: '25',
-              height: '21',
-              viewBox: '0 0 25 21',
-              fill: 'none',
-              xmlns: 'http://www.w3.org/2000/svg'
-            }, e), {}, {
-              children: (0, o.jsx)('path', {
-                opacity: '0.56',
-                d: 'M24.9576 1.48174L20.4045 17.4182C20.1903 18.1687 19.1993 18.5554 18.3868 18.199L12.6283 15.6744L9.90535 19.4576C9.16446 20.4887 7.28966 20.0415 7.28966 18.8358V14.6204C7.28966 14.2945 7.45027 13.9836 7.72707 13.7562L18.9493 4.65829C18.9404 4.54456 18.7975 4.44607 18.6548 4.52933L5.26339 12.4445L0.763922 10.4733C-0.289434 10.0108 -0.244796 8.71427 0.84423 8.31253L23.0296 0.101913C24.0919 -0.292397 25.2348 0.518899 24.958 1.48167L24.9576 1.48174Z',
-                fill: 'white'
-              })
-            }))
-          }
-        }, {
-          name: 'Medium', href: 'https://medium.com/@Nexter_finance', icon: function (e) {
-            return (0, o.jsx)('svg', M(M({
-              width: '42',
-              height: '21',
-              viewBox: '0 0 42 21',
-              fill: 'currentColor',
-              xmlns: 'http://www.w3.org/2000/svg'
-            }, e), {}, {
-              children: (0, o.jsx)('path', {
-                opacity: '0.56',
-                d: 'M11.9 0C10.3373 -1.96e-08 8.78984 0.259075 7.34607 0.762431C5.90229 1.26579 4.59045 2.00357 3.48543 2.93365C2.38041 3.86373 1.50386 4.9679 0.905834 6.18311C0.307803 7.39832 0 8.70078 0 10.0161C0 11.3314 0.307803 12.6339 0.905834 13.8491C1.50386 15.0643 2.38041 16.1685 3.48543 17.0986C4.59045 18.0287 5.90229 18.7664 7.34607 19.2698C8.78984 19.7732 10.3373 20.0322 11.9 20.0322C13.4627 20.0322 15.0102 19.7732 16.4539 19.2698C17.8977 18.7664 19.2096 18.0287 20.3146 17.0986C21.4196 16.1685 22.2961 15.0643 22.8942 13.8491C23.4922 12.6339 23.8 11.3314 23.8 10.0161C23.8 8.70078 23.4922 7.39832 22.8942 6.18311C22.2961 4.9679 21.4196 3.86373 20.3146 2.93365C19.2096 2.00357 17.8977 1.26579 16.4539 0.762431C15.0102 0.259075 13.4627 -1.96e-08 11.9 0ZM30.8 1.17837C30.0646 1.17837 29.3364 1.40696 28.657 1.8511C27.9776 2.29524 27.3602 2.94622 26.8402 3.76688C26.3202 4.58754 25.9077 5.56181 25.6263 6.63405C25.3448 7.7063 25.2 8.85552 25.2 10.0161C25.2 11.1767 25.3448 12.3259 25.6263 13.3982C25.9077 14.4704 26.3202 15.4447 26.8402 16.2653C27.3602 17.086 27.9776 17.737 28.657 18.1811C29.3364 18.6253 30.0646 18.8539 30.8 18.8539C31.5354 18.8539 32.2636 18.6253 32.943 18.1811C33.6224 17.737 34.2398 17.086 34.7598 16.2653C35.2798 15.4447 35.6923 14.4704 35.9737 13.3982C36.2551 12.3259 36.4 11.1767 36.4 10.0161C36.4 8.85552 36.2551 7.7063 35.9737 6.63405C35.6923 5.56181 35.2798 4.58754 34.7598 3.76688C34.2398 2.94622 33.6224 2.29524 32.943 1.8511C32.2636 1.40696 31.5354 1.17837 30.8 1.17837ZM39.9 2.35673C39.343 2.35673 38.8089 3.1637 38.4151 4.60011C38.0213 6.03653 37.8 7.98472 37.8 10.0161C37.8 12.0475 38.0213 13.9957 38.4151 15.4321C38.8089 16.8685 39.343 17.6755 39.9 17.6755C40.457 17.6755 40.9911 16.8685 41.3849 15.4321C41.7787 13.9957 42 12.0475 42 10.0161C42 7.98472 41.7787 6.03653 41.3849 4.60011C40.9911 3.1637 40.457 2.35673 39.9 2.35673Z',
-                fill: 'white'
-              })
-            }))
-          }
-        }, {
-          name: 'Instagram', href: 'https://www.instagram.com/nexterfinance/', icon: function (e) {
-            return (0, o.jsx)('svg', M(M({ fill: 'currentColor', viewBox: '0 0 24 24' }, e), {}, {
-              children: (0, o.jsx)('path', {
-                fillRule: 'evenodd',
-                d: 'M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z',
-                clipRule: 'evenodd'
-              })
-            }))
-          }
-        }, {
-          name: 'Twitter',
-          href: 'https://twitter.com/NexterDotFi',
-          icon: function (e) {
-            return (0, o.jsx)('svg', M(M({
-              fill: 'currentColor',
-              viewBox: '0 0 24 24'
-            }, e), {}, { children: (0, o.jsx)('path', { d: 'M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84' }) }))
-          }
-        }, {
-          name: 'GitHub',
-          href: 'https://github.com/bhavish-finance',
-          icon: function (e) {
-            return (0, o.jsx)('svg', M(M({
-              fill: 'currentColor',
-              viewBox: '0 0 24 24'
-            }, e), {}, {
-              children: (0, o.jsx)('path', {
-                fillRule: 'evenodd',
-                d: 'M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z',
-                clipRule: 'evenodd'
-              })
-            }))
-          }
-        }, {
-          name: 'YouTube',
-          href: 'https://www.youtube.com/@nexterfinanceofficial3306',
-          icon: function (e) {
-            return (0, o.jsx)('svg', M(M({
-              fill: 'currentColor',
-              viewBox: '0 0 24 24'
-            }, e), {}, {
-              children: (0, o.jsx)('path', {
-                fillRule: 'evenodd',
-                d: 'M19.812 5.418c.861.23 1.538.907 1.768 1.768C21.998 8.746 22 12 22 12s0 3.255-.418 4.814a2.504 2.504 0 0 1-1.768 1.768c-1.56.419-7.814.419-7.814.419s-6.255 0-7.814-.419a2.505 2.505 0 0 1-1.768-1.768C2 15.255 2 12 2 12s0-3.255.417-4.814a2.507 2.507 0 0 1 1.768-1.768C5.744 5 11.998 5 11.998 5s6.255 0 7.814.418ZM15.194 12 10 15V9l5.194 3Z',
-                clipRule: 'evenodd'
-              })
-            }))
-          }
-        }, {
-          name: 'Discord', href: 'https://discord.gg/fx6BBwssA5', icon: function (e) {
-            return (0, o.jsx)('svg', M(M({
-              width: '16',
-              height: '10',
-              viewBox: '0 0 16 10',
-              fill: 'currentColor'
-            }, e), {}, {
-              xmlns: 'http://www.w3.org/2000/svg', children: (0, o.jsx)('path', {
-                d: 'M13.4165 1.41595C12.4257 0.64794 11.2367 0.263956 9.98165 0.199951L9.78347 0.391965C10.9064 0.64794 11.8973 1.15993 12.822 1.86394C11.6991 1.28794 10.444 0.903959 9.12292 0.775949C8.7266 0.711945 8.3963 0.711945 7.99999 0.711945C7.60367 0.711945 7.27337 0.711945 6.87706 0.775949C5.55595 0.903959 4.3009 1.28794 3.17797 1.86394C4.10272 1.15993 5.09357 0.64794 6.2165 0.391965L6.01832 0.199951C4.76327 0.263956 3.57428 0.64794 2.58347 1.41595C1.46054 3.46397 0.866043 5.76796 0.799988 8.13592C1.7908 9.15995 3.17797 9.79995 4.6312 9.79995C4.6312 9.79995 5.09357 9.28796 5.42383 8.83992C4.56514 8.64795 3.77246 8.19992 3.24403 7.49596C3.7064 7.75193 4.16878 8.00795 4.6312 8.19992C5.22569 8.45594 5.82019 8.58395 6.41468 8.71196C6.94312 8.77592 7.47155 8.83992 7.99999 8.83992C8.52842 8.83992 9.05686 8.77592 9.58529 8.71196C10.1798 8.58395 10.7743 8.45594 11.3688 8.19992C11.8312 8.00795 12.2936 7.75193 12.7559 7.49596C12.2275 8.19992 11.4348 8.64795 10.5761 8.83992C10.9064 9.28796 11.3688 9.79995 11.3688 9.79995C12.822 9.79995 14.2092 9.15995 15.2 8.13592C15.1339 5.76796 14.5394 3.46397 13.4165 1.41595ZM5.82019 6.98392C5.15963 6.98392 4.56514 6.40792 4.56514 5.70396C4.56514 4.99995 5.15963 4.42395 5.82019 4.42395C6.48074 4.42395 7.07524 4.99995 7.07524 5.70396C7.07524 6.40792 6.48074 6.98392 5.82019 6.98392ZM10.1798 6.98392C9.51923 6.98392 8.92474 6.40792 8.92474 5.70396C8.92474 4.99995 9.51923 4.42395 10.1798 4.42395C10.8403 4.42395 11.4348 4.99995 11.4348 5.70396C11.4348 6.40792 10.8403 6.98392 10.1798 6.98392Z',
-                fillRule: 'evenodd'
-              })
-            }))
-          }
-        }]
+        social: [
+          // {
+          //   name: 'Telegram',
+          //   href: 'https://bit.ly/3l5zAAn',
+          //   icon: function (e) {
+          //     return (0, o.jsx)('svg', M(M({
+          //       width: '25',
+          //       height: '21',
+          //       viewBox: '0 0 25 21',
+          //       fill: 'none',
+          //       xmlns: 'http://www.w3.org/2000/svg'
+          //     }, e), {}, {
+          //       children: (0, o.jsx)('path', {
+          //         opacity: '0.56',
+          //         d: 'M24.9576 1.48174L20.4045 17.4182C20.1903 18.1687 19.1993 18.5554 18.3868 18.199L12.6283 15.6744L9.90535 19.4576C9.16446 20.4887 7.28966 20.0415 7.28966 18.8358V14.6204C7.28966 14.2945 7.45027 13.9836 7.72707 13.7562L18.9493 4.65829C18.9404 4.54456 18.7975 4.44607 18.6548 4.52933L5.26339 12.4445L0.763922 10.4733C-0.289434 10.0108 -0.244796 8.71427 0.84423 8.31253L23.0296 0.101913C24.0919 -0.292397 25.2348 0.518899 24.958 1.48167L24.9576 1.48174Z',
+          //         fill: 'white'
+          //       })
+          //     }))
+          //   }
+          // },
+          // {
+          //   name: 'Medium', href: 'https://medium.com/@Nexter_finance', icon: function (e) {
+          //     return (0, o.jsx)('svg', M(M({
+          //       width: '42',
+          //       height: '21',
+          //       viewBox: '0 0 42 21',
+          //       fill: 'currentColor',
+          //       xmlns: 'http://www.w3.org/2000/svg'
+          //     }, e), {}, {
+          //       children: (0, o.jsx)('path', {
+          //         opacity: '0.56',
+          //         d: 'M11.9 0C10.3373 -1.96e-08 8.78984 0.259075 7.34607 0.762431C5.90229 1.26579 4.59045 2.00357 3.48543 2.93365C2.38041 3.86373 1.50386 4.9679 0.905834 6.18311C0.307803 7.39832 0 8.70078 0 10.0161C0 11.3314 0.307803 12.6339 0.905834 13.8491C1.50386 15.0643 2.38041 16.1685 3.48543 17.0986C4.59045 18.0287 5.90229 18.7664 7.34607 19.2698C8.78984 19.7732 10.3373 20.0322 11.9 20.0322C13.4627 20.0322 15.0102 19.7732 16.4539 19.2698C17.8977 18.7664 19.2096 18.0287 20.3146 17.0986C21.4196 16.1685 22.2961 15.0643 22.8942 13.8491C23.4922 12.6339 23.8 11.3314 23.8 10.0161C23.8 8.70078 23.4922 7.39832 22.8942 6.18311C22.2961 4.9679 21.4196 3.86373 20.3146 2.93365C19.2096 2.00357 17.8977 1.26579 16.4539 0.762431C15.0102 0.259075 13.4627 -1.96e-08 11.9 0ZM30.8 1.17837C30.0646 1.17837 29.3364 1.40696 28.657 1.8511C27.9776 2.29524 27.3602 2.94622 26.8402 3.76688C26.3202 4.58754 25.9077 5.56181 25.6263 6.63405C25.3448 7.7063 25.2 8.85552 25.2 10.0161C25.2 11.1767 25.3448 12.3259 25.6263 13.3982C25.9077 14.4704 26.3202 15.4447 26.8402 16.2653C27.3602 17.086 27.9776 17.737 28.657 18.1811C29.3364 18.6253 30.0646 18.8539 30.8 18.8539C31.5354 18.8539 32.2636 18.6253 32.943 18.1811C33.6224 17.737 34.2398 17.086 34.7598 16.2653C35.2798 15.4447 35.6923 14.4704 35.9737 13.3982C36.2551 12.3259 36.4 11.1767 36.4 10.0161C36.4 8.85552 36.2551 7.7063 35.9737 6.63405C35.6923 5.56181 35.2798 4.58754 34.7598 3.76688C34.2398 2.94622 33.6224 2.29524 32.943 1.8511C32.2636 1.40696 31.5354 1.17837 30.8 1.17837ZM39.9 2.35673C39.343 2.35673 38.8089 3.1637 38.4151 4.60011C38.0213 6.03653 37.8 7.98472 37.8 10.0161C37.8 12.0475 38.0213 13.9957 38.4151 15.4321C38.8089 16.8685 39.343 17.6755 39.9 17.6755C40.457 17.6755 40.9911 16.8685 41.3849 15.4321C41.7787 13.9957 42 12.0475 42 10.0161C42 7.98472 41.7787 6.03653 41.3849 4.60011C40.9911 3.1637 40.457 2.35673 39.9 2.35673Z',
+          //         fill: 'white'
+          //       })
+          //     }))
+          //   }
+          // },
+          // {
+          //   name: 'Instagram', href: 'https://www.instagram.com/nexterfinance/', icon: function (e) {
+          //     return (0, o.jsx)('svg', M(M({ fill: 'currentColor', viewBox: '0 0 24 24' }, e), {}, {
+          //       children: (0, o.jsx)('path', {
+          //         fillRule: 'evenodd',
+          //         d: 'M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z',
+          //         clipRule: 'evenodd'
+          //       })
+          //     }))
+          //   }
+          // },
+          {
+            name: 'Twitter',
+            href: 'https://twitter.com/certuxxyz',
+            icon: function (e) {
+              return (0, o.jsx)('svg', M(M({
+                fill: 'currentColor',
+                viewBox: '0 0 24 24'
+              }, e), {}, { children: (0, o.jsx)('path', { d: 'M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84' }) }))
+            }
+          },
+          // {
+          //   name: 'GitHub',
+          //   href: 'https://github.com/bhavish-finance',
+          //   icon: function (e) {
+          //     return (0, o.jsx)('svg', M(M({
+          //       fill: 'currentColor',
+          //       viewBox: '0 0 24 24'
+          //     }, e), {}, {
+          //       children: (0, o.jsx)('path', {
+          //         fillRule: 'evenodd',
+          //         d: 'M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z',
+          //         clipRule: 'evenodd'
+          //       })
+          //     }))
+          //   }
+          // },
+          // {
+          //   name: 'YouTube',
+          //   href: 'https://www.youtube.com/@nexterfinanceofficial3306',
+          //   icon: function (e) {
+          //     return (0, o.jsx)('svg', M(M({
+          //       fill: 'currentColor',
+          //       viewBox: '0 0 24 24'
+          //     }, e), {}, {
+          //       children: (0, o.jsx)('path', {
+          //         fillRule: 'evenodd',
+          //         d: 'M19.812 5.418c.861.23 1.538.907 1.768 1.768C21.998 8.746 22 12 22 12s0 3.255-.418 4.814a2.504 2.504 0 0 1-1.768 1.768c-1.56.419-7.814.419-7.814.419s-6.255 0-7.814-.419a2.505 2.505 0 0 1-1.768-1.768C2 15.255 2 12 2 12s0-3.255.417-4.814a2.507 2.507 0 0 1 1.768-1.768C5.744 5 11.998 5 11.998 5s6.255 0 7.814.418ZM15.194 12 10 15V9l5.194 3Z',
+          //         clipRule: 'evenodd'
+          //       })
+          //     }))
+          //   }
+          // },
+          // {
+          //   name: 'Discord', href: 'https://discord.gg/fx6BBwssA5', icon: function (e) {
+          //     return (0, o.jsx)('svg', M(M({
+          //       width: '16',
+          //       height: '10',
+          //       viewBox: '0 0 16 10',
+          //       fill: 'currentColor'
+          //     }, e), {}, {
+          //       xmlns: 'http://www.w3.org/2000/svg', children: (0, o.jsx)('path', {
+          //         d: 'M13.4165 1.41595C12.4257 0.64794 11.2367 0.263956 9.98165 0.199951L9.78347 0.391965C10.9064 0.64794 11.8973 1.15993 12.822 1.86394C11.6991 1.28794 10.444 0.903959 9.12292 0.775949C8.7266 0.711945 8.3963 0.711945 7.99999 0.711945C7.60367 0.711945 7.27337 0.711945 6.87706 0.775949C5.55595 0.903959 4.3009 1.28794 3.17797 1.86394C4.10272 1.15993 5.09357 0.64794 6.2165 0.391965L6.01832 0.199951C4.76327 0.263956 3.57428 0.64794 2.58347 1.41595C1.46054 3.46397 0.866043 5.76796 0.799988 8.13592C1.7908 9.15995 3.17797 9.79995 4.6312 9.79995C4.6312 9.79995 5.09357 9.28796 5.42383 8.83992C4.56514 8.64795 3.77246 8.19992 3.24403 7.49596C3.7064 7.75193 4.16878 8.00795 4.6312 8.19992C5.22569 8.45594 5.82019 8.58395 6.41468 8.71196C6.94312 8.77592 7.47155 8.83992 7.99999 8.83992C8.52842 8.83992 9.05686 8.77592 9.58529 8.71196C10.1798 8.58395 10.7743 8.45594 11.3688 8.19992C11.8312 8.00795 12.2936 7.75193 12.7559 7.49596C12.2275 8.19992 11.4348 8.64795 10.5761 8.83992C10.9064 9.28796 11.3688 9.79995 11.3688 9.79995C12.822 9.79995 14.2092 9.15995 15.2 8.13592C15.1339 5.76796 14.5394 3.46397 13.4165 1.41595ZM5.82019 6.98392C5.15963 6.98392 4.56514 6.40792 4.56514 5.70396C4.56514 4.99995 5.15963 4.42395 5.82019 4.42395C6.48074 4.42395 7.07524 4.99995 7.07524 5.70396C7.07524 6.40792 6.48074 6.98392 5.82019 6.98392ZM10.1798 6.98392C9.51923 6.98392 8.92474 6.40792 8.92474 5.70396C8.92474 4.99995 9.51923 4.42395 10.1798 4.42395C10.8403 4.42395 11.4348 4.99995 11.4348 5.70396C11.4348 6.40792 10.8403 6.98392 10.1798 6.98392Z',
+          //         fillRule: 'evenodd'
+          //       })
+          //     }))
+          //   }
+          // }
+        ]
       },
       L = function () {
         var e, t = (0, E.cI)('xgedbpkg'), A = (0, U.Z)(t, 3), i = A[0], n = A[1], r = A[2], a = (0, s.useState)(''),
@@ -751,71 +762,91 @@
                             }, e.name)
                           }))
                         })]
-                      }), (0, o.jsxs)('div', {
-                        className: '',
-                        children: [(0, o.jsx)('h3', {
-                          className: 'text-base leading-[18px] font-medium whitespace-nowrap text-nexter-white',
-                          children: 'Terms and Policies'
-                        }), (0, o.jsx)('ul', {
-                          role: 'list',
-                          className: 'mt-[21px] space-y-4',
-                          children: G.termsAndPolicies.map((function (e) {
-                            return (0, o.jsx)('li', {
-                              children: (0, o.jsx)('a', {
-                                href: e.href,
-                                target: '_blank',
-                                className: 'text-sm leading-[22px] text-nexter-white opacity-60 hover:text-nexter-white',
-                                children: e.name
-                              })
-                            }, e.name)
-                          }))
-                        })]
-                      })]
-                    }), (0, o.jsxs)('div', {
-                      className: 'md:mt-10 xl:mt-0', children: [(0, o.jsx)('h3', {
-                        className: 'text-base leading-[18px] font-medium text-nexter-white',
-                        children: 'Newsletter'
-                      }), (0, o.jsx)('p', {
-                        className: 'mt-3 md:mt-2 text-sm leading-[22px] md:leading-6 text-nexter-white opacity-60',
-                        children: 'Be the first one to know about us!'
                       }),
-                        i.succeeded && (0, o.jsx)('div', {
-                          children: (0, o.jsx)('p', {
-                            className: 'max-w-xs text-center pt-10 text-green sm:max-w-sm md:max-w-none text-xs',
-                            children: 'Thank you for signing up. You will now receive news letters from our side'
-                          })
-                        }), !i.succeeded && (0, o.jsxs)('form', {
-                          className: 'mt-6 sm:flex sm:max-w-md', onSubmit: n, children: [(0, o.jsxs)('div', {
-                            children: [(0, o.jsx)('label', {
-                              htmlFor: 'email-address',
-                              className: 'sr-only',
-                              children: 'Email address'
-                            }), (0, o.jsx)('input', {
-                              type: 'email',
-                              name: 'email',
-                              onChange: function (e) {return c(e.target.value), void r()},
-                              value: l,
-                              id: 'email',
-                              placeholder: 'Enter your email',
-                              autoComplete: 'email',
-                              required: !0,
-                              className: 'w-full min-w-0 appearance-none rounded-md border-0 bg-gray-400/10 px-3 py-1.5 text-base leading-7 text-white shadow-sm ring-1 ring-inset ring-white/10 placeholder:text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:w-64 sm:text-sm sm:leading-6 xl:w-full'
-                            }), 'TYPE_EMAIL' === (null === i || void 0 === i || null === (e = i.errors[0]) || void 0 === e ? void 0 : e.code) && (0, o.jsx)('span', {
-                              className: 'block mt-2 text-red-500 text-xs',
-                              children: 'Enter a valid email address'
-                            })]
-                          }), (0, o.jsx)('div', {
-                            className: 'mt-4 sm:mt-0 sm:ml-4 sm:flex-shrink-0', children: (0, o.jsx)('button', {
-                              type: 'submit',
-                              className: ''.concat(!l && 'disabled:opacity-25', ' flex w-full items-center justify-center rounded-md bg-[#36353B] hover:bg-gradient-primary py-2 px-3 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500'),
-                              disabled: i.submitting || i.succeeded || !l, children: 'Subscribe'
+                        (0, o.jsxs)('div', {
+                          className: '',
+                          children: [
+                            (0, o.jsx)('h3', {
+                              className: 'text-base leading-[18px] font-medium whitespace-nowrap text-nexter-white',
+                              children: 'Terms and Policies'
+                            }),
+                            (0, o.jsx)('ul', {
+                              role: 'list',
+                              className: 'mt-[21px] space-y-4',
+                              children: G.termsAndPolicies.map((function (e) {
+                                return (0, o.jsx)('li', {
+                                  children: (0, o.jsx)('a', {
+                                    href: e.href,
+                                    target: '_blank',
+                                    className: 'text-sm leading-[22px] text-nexter-white opacity-60 hover:text-nexter-white',
+                                    children: e.name
+                                  })
+                                }, e.name)
+                              }))
                             })
-                          })]
-                        }), (0, o.jsx)('p', {
-                          className: 'text-xs leading-5 text-gray-500 mt-6 lg:mt-12',
-                          children: '\xa9 2023 Bhavish Labs Pte Ltd. All rights reserved.'
-                        })]
-                    })]
+                          ]
+                        })
+                      ]
+                    }),
+                      (0, o.jsxs)('div', {
+                        className: 'md:mt-10 xl:mt-0', children: [
+                          (0, o.jsx)('h3', {
+                            className: 'text-base leading-[18px] font-medium text-nexter-white',
+                            children: 'Newsletter'
+                          }),
+                          (0, o.jsx)('p', {
+                            className: 'mt-3 md:mt-2 text-sm leading-[22px] md:leading-6 text-nexter-white opacity-60',
+                            children: 'Be the first one to know about us!'
+                          }),
+                          i.succeeded && (0, o.jsx)('div', {
+                            children: (0, o.jsx)('p', {
+                              className: 'max-w-xs text-center pt-10 text-green sm:max-w-sm md:max-w-none text-xs',
+                              children: 'Thank you for signing up. You will now receive news letters from our side'
+                            })
+                          }),
+                          !i.succeeded && (0, o.jsxs)('form', {
+                            className: 'mt-6 sm:flex sm:max-w-md',
+                            onSubmit: n,
+                            children: [
+                              (0, o.jsxs)('div', {
+                                children: [
+                                  (0, o.jsx)('label', {
+                                    htmlFor: 'email-address',
+                                    className: 'sr-only',
+                                    children: 'Email address'
+                                  }),
+                                  (0, o.jsx)('input', {
+                                    type: 'email',
+                                    name: 'email',
+                                    onChange: function (e) {return c(e.target.value), void r()},
+                                    value: l,
+                                    id: 'email',
+                                    placeholder: 'Enter your email',
+                                    autoComplete: 'email',
+                                    required: !0,
+                                    className: 'w-full min-w-0 appearance-none rounded-md border-0 bg-gray-400/10 px-3 py-1.5 text-base leading-7 text-white shadow-sm ring-1 ring-inset ring-white/10 placeholder:text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:w-64 sm:text-sm sm:leading-6 xl:w-full'
+                                  }),
+                                  'TYPE_EMAIL' === (null === i || void 0 === i || null === (e = i.errors[0]) || void 0 === e ? void 0 : e.code) && (0, o.jsx)('span', {
+                                    className: 'block mt-2 text-red-500 text-xs',
+                                    children: 'Enter a valid email address'
+                                  })
+                                ]
+                              }),
+                              (0, o.jsx)('div', {
+                                className: 'mt-4 sm:mt-0 sm:ml-4 sm:flex-shrink-0', children: (0, o.jsx)('button', {
+                                  type: 'submit',
+                                  className: ''.concat(!l && 'disabled:opacity-25', ' flex w-full items-center justify-center rounded-md bg-[#36353B] hover:bg-gradient-primary py-2 px-3 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500'),
+                                  disabled: i.submitting || i.succeeded || !l, children: 'Subscribe'
+                                })
+                              })
+                            ]
+                          }),
+                          // (0, o.jsx)('p', {
+                          //   className: 'text-xs leading-5 text-gray-500 mt-6 lg:mt-12',
+                          //   children: '\xa9 2023 Bhavish Labs Pte Ltd. All rights reserved.'
+                          // })
+                        ]
+                      })]
                   })]
                 })
               })]
@@ -1345,7 +1376,7 @@
             }, 2: {
               handle: '@daisugist',
               imageURL: './images/lRmXoLeB_400x400.jpeg',
-              info: 'Bhavish Finance cements its lead in the industry by bringing the lossless prediction experience to Polygon and BNB Chain users, and we are excited to be able to secure their prediction markets with Kleros\u2019s decentralized court technology!',
+              info: 'Cements its lead in the industry by bringing the lossless prediction experience to Polygon users, and we are excited to be able to secure their prediction markets with Kleros\u2019s decentralized court technology!',
               companyName: 'Kleros',
               twitterLink: 'https://twitter.com/daisugist',
               companyLink: 'https://kleros.io/'
@@ -1473,7 +1504,7 @@
                   href: 'https://test.certux.xyz/earlyBird',
                   target: '_blank',
                   className: 'bottom-button-own',
-                  children: (0, o.jsx)(b, { className: 'text-xl !leading-10 font-[500]', children: 'Early Bird' })
+                  children: (0, o.jsx)(b, { className: 'text-xl !leading-10 font-[500]', children: 'Join Eearly Bird' })
                 }),
               ]
             }),
