@@ -478,9 +478,9 @@
             ]
           }),
           (0, o.jsx)('a', {
-            href: 'https://test.certux.xyz/earlyBird',
+            href: 'https://app.certux.xyz/earlybird',
             target: '_blank',
-            children: (0, o.jsx)(b, { className: 'text-xl !leading-10 font-[500]', children: 'Join Eearly Bird' })
+            children: (0, o.jsx)(b, { className: 'text-xl !leading-10 font-[500]', children: 'Join Earlybird' })
           }),
           // (0, o.jsxs)('div', {
           //   className: 'flex gap-2 items-center px-3 py-2 mt-4 cursor-pointer',
@@ -1529,13 +1529,13 @@
                   text: 'Protocol Metrics',
                   className: ''
                 }),
-                (0, o.jsx)(Q1, { text: 'Join the Certux Early Bird Program' }),
-                (0, o.jsx)(Q2, { text: 'Get a head start on your Certux journey with our Early Bird Program, offering exclusive benefits, such as $CTX airdrops and attractive investment packages. Don\'t miss out on this limited-time opportunity to maximize your potential returns and be a pioneer in the Certux ecosystem.' }),
+                (0, o.jsx)(Q1, { text: 'Join the Certux Earlybird Program' }),
+                (0, o.jsx)(Q2, { text: 'Get a head start on your Certux journey with our Earlybird Program, offering exclusive benefits, such as $CTX airdrops and attractive investment packages. Don\'t miss out on this limited-time opportunity to maximize your potential returns and be a pioneer in the Certux ecosystem.' }),
                 (0, o.jsx)('a', {
-                  href: 'https://test.certux.xyz/earlyBird',
+                  href: 'https://app.certux.xyz/earlybird',
                   target: '_blank',
                   className: 'bottom-button-own',
-                  children: (0, o.jsx)(b, { className: 'text-xl !leading-10 font-[500]', children: 'Join Eearly Bird' })
+                  children: (0, o.jsx)(b, { className: 'text-xl !leading-10 font-[500]', children: 'Join Earlybird' })
                 }),
               ]
             }),
