@@ -417,52 +417,8 @@
       return (0, o.jsxs)('div', {
         className: 'relative flex flex-col items-center ',
         children: [
-          (0, o.jsxs)('div', {
-            // className: 'relative flex items-center px-6 py-3 mb-[18px] md:mb-5 space-x-2 rounded-full lg:mb-8 bg-light-06 shadow-box-black-shadow backdrop-blur-36 ',
-            className: 'relative flex items-center px-6 py-3 mb-[18px] md:mb-5 space-x-2 rounded-full lg:mb-8 bg-light-06 backdrop-blur-36 ',
-            children: [
-              // (0, o.jsx)('div', {
-              //   className: 'relative flex-shrink-0 h-8 w-7',
-              //   children: (0, o.jsx)(
-              //     'img', {
-              //       quality: 100,
-              //       src: './icons/bnb-icon.svg',
-              //       alt: 'bnb',
-              //       objectFit: 'contain',
-              //       layout: 'fill',
-              //       objectPosition: 'center'
-              //     })
-              // }),
-              // (0, o.jsx)('div', {
-              //   className: 'flex-1 min-w-0',
-              //   children: (0, o.jsxs)(
-              //     'a', {
-              //       target: '_blank',
-              //       href: 'https://www.bnbchain.org/en/blog/bnb-chains-european-innovation-incubator-unveils-winners/',
-              //       className: 'flex focus:outline-none  tracking-[-0.03em]',
-              //       children: [
-              //         (0, o.jsx)(
-              //           'span', {
-              //             className: 'mr-1 text-sm font-[300] font-oldschool  leading-[22px] ',
-              //             children: 'Graduated from'
-              //           }), (0, o.jsx)(
-              //           x, {
-              //             text: 'BNB Chain European Innovation Incubator Program ',
-              //             classes: '!text-sm !font-[500] !font-oldschool !underline underline-offset-1 !leading-[22px]'
-              //           }), (0, o.jsx)(
-              //           'img', {
-              //             quality: 100,
-              //             src: './icons/external-link.svg',
-              //             alt: 'link',
-              //             className: '!top-2 display-inline',
-              //             width: '20px',
-              //             height: '20px'
-              //           }
-              //         )
-              //       ]
-              //     })
-              // })
-            ]
+          (0, o.jsx)('div', {
+            className: 'relative flex items-center px-6 py-3 mb-[18px] md:mb-5 space-x-2 rounded-full lg:mb-8 bg-light-06 backdrop-blur-36 '
           }),
           (0, o.jsxs)('div', {
             className: 'max-w-[913px] z-20',
@@ -482,20 +438,8 @@
             target: '_blank',
             children: (0, o.jsx)(b, { className: 'text-xl !leading-10 font-[500]', children: 'Join Earlybird' })
           }),
-          // (0, o.jsxs)('div', {
-          //   className: 'flex gap-2 items-center px-3 py-2 mt-4 cursor-pointer',
-          //   onClick: function () {return A(!0)},
-          //   children: [
-          //     (0, o.jsx)('img', {
-          //       className: '',
-          //       quality: 100,
-          //       src: './icons/video-icon.svg',
-          //       alt: 'video icon', height: '32px', width: '32px'
-          //     }),
-          //     (0, o.jsx)('span', { className: 'text-base text-[#F6F6F499]', children: 'How it works' })
-          //   ]
-          // }),
-          (0, o.jsx)(u, { open: t, setOpen: A })]
+          (0, o.jsx)(u, { open: t, setOpen: A })
+        ]
       })
     }, w = A(4730), j = ['className', 'children']
 
