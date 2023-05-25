@@ -726,28 +726,28 @@
                       (0, o.jsxs)('div', {
                         className: 'grid grid-cols-2 md:gap-7',
                         children: [
-                          (0, o.jsxs)('div', {
-                            children: [
-                              (0, o.jsx)('h3', {
-                                className: 'text-base leading-[18px] font-medium text-nexter-white',
-                                children: 'Audit'
-                              }),
-                              (0, o.jsx)('ul', {
-                                role: 'list',
-                                className: 'mt-[21px] space-y-4',
-                                children: G.audits.map((function (e) {
-                                  return (0, o.jsx)('li', {
-                                    children: (0, o.jsx)('a', {
-                                      href: e.href,
-                                      target: '_blank',
-                                      className: 'text-sm leading-[22px] text-nexter-white opacity-60 hover:text-nexter-white',
-                                      children: e.name
-                                    })
-                                  }, e.name)
-                                }))
-                              })
-                            ]
-                          }),
+                          // (0, o.jsxs)('div', {
+                          //   children: [
+                              // (0, o.jsx)('h3', {
+                              //   className: 'text-base leading-[18px] font-medium text-nexter-white',
+                              //   children: 'Audit'
+                              // }),
+                              // (0, o.jsx)('ul', {
+                              //   role: 'list',
+                              //   className: 'mt-[21px] space-y-4',
+                              //   children: G.audits.map((function (e) {
+                              //     return (0, o.jsx)('li', {
+                              //       children: (0, o.jsx)('a', {
+                              //         href: e.href,
+                              //         target: '_blank',
+                              //         className: 'text-sm leading-[22px] text-nexter-white opacity-60 hover:text-nexter-white',
+                              //         children: e.name
+                              //       })
+                              //     }, e.name)
+                              //   }))
+                              // })
+                          //   ]
+                          // }),
                           (0, o.jsxs)('div', {
                             className: '',
                             children: [
