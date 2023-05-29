@@ -1303,6 +1303,11 @@
             title: 'Vaults',
             imageUrl: '/images/prediction-4.png',
             description: 'Automate your predictions using vaults and earn high  APYs'
+          },
+          {
+            title: 'Trading',
+            imageUrl: '/images/prediction-5.jpg',
+            description: 'Decetralized Exchange support orderbook，futrue，and option trading.'
           }
         ]
         return (0, o.jsxs)('div', {
