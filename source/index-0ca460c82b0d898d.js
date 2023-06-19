@@ -1487,12 +1487,12 @@
                 }),
                 (0, o.jsx)(Q1, { text: 'Join the Certux Earlybird Program' }),
                 (0, o.jsx)(Q2, { text: 'Get a head start on your Certux journey with our Earlybird Program, offering exclusive benefits, such as $CTX airdrops and attractive investment packages. Don\'t miss out on this limited-time opportunity to maximize your potential returns and be a pioneer in the Certux ecosystem.' }),
-                (0, o.jsx)('a', {
-                  href: 'https://app.certux.xyz/staking',
-                  target: '_blank',
-                  className: 'bottom-button-own',
-                  children: (0, o.jsx)(b, { className: 'text-xl !leading-10 font-[500]', children: 'Launch App' })
-                }),
+                // (0, o.jsx)('a', {
+                //   href: 'https://app.certux.xyz/staking',
+                //   target: '_blank',
+                //   className: 'bottom-button-own',
+                //   children: (0, o.jsx)(b, { className: 'text-xl !leading-10 font-[500]', children: 'Launch App' })
+                // }),
               ]
             }),
           ]
