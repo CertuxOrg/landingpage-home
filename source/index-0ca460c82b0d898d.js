@@ -49,6 +49,16 @@
                         //   })
                         // })
                       ]
+                    }),
+                    (0, o.jsxs)('div', {
+                      className: 'flex justify-end flex-col sm:items-baseline items-center w-full lg:w-auto hide-sm',
+                      children: [
+                        (0, o.jsxs)('a', {
+                          href: 'https://card.certux.xyz/register?referralCode=434125',
+                          className: 'flex',
+                          children: [(0, o.jsx)('span', { className: 'px-6 text-[20px] font-medium transition-all text-nexter-white m-t-3', children: 'Certux Card' })]
+                        })
+                      ]
                     })
                   ]
                 }),
@@ -84,25 +94,47 @@
                     children: [
                       (0, o.jsxs)('div', {
                         className: 'flex items-center justify-between',
-                        children: [(0, o.jsx)('div', {
-                          children: (0, o.jsxs)('a', {
-                            href: '#',
-                            className: 'flex focus:outline-none',
-                            children: [(0, o.jsx)('span', {
-                              className: 'sr-only',
-                              children: 'Certux'
-                            }), (0, o.jsx)(m, {})]
+                        children: [
+                          (0, o.jsx)('div', {
+                            children: (0, o.jsxs)('a', {
+                              href: '#',
+                              className: 'flex focus:outline-none',
+                              children: [
+                                (0, o.jsx)('span', {
+                                  className: 'sr-only',
+                                  children: 'Certux'
+                                }),
+                                (0, o.jsx)(m, {})
+                              ]
+                            })
+                          }),
+                          (0, o.jsx)('div', {
+                            className: '-mr-2',
+                            children: (0, o.jsxs)(i.J.Button, {
+                              className: 'inline-flex items-center justify-center p-2 text-gray-400 bg-white rounded-md focus:outline-none',
+                              children: [(0, o.jsx)('span', {
+                                className: 'sr-only',
+                                children: 'Close menu'
+                              }), (0, o.jsx)(a, { className: 'w-6 h-6', 'aria-hidden': 'true' })]
+                            })
                           })
-                        }), (0, o.jsx)('div', {
-                          className: '-mr-2',
-                          children: (0, o.jsxs)(i.J.Button, {
-                            className: 'inline-flex items-center justify-center p-2 text-gray-400 bg-white rounded-md focus:outline-none',
-                            children: [(0, o.jsx)('span', {
-                              className: 'sr-only',
-                              children: 'Close menu'
-                            }), (0, o.jsx)(a, { className: 'w-6 h-6', 'aria-hidden': 'true' })]
-                          })
-                        })]
+                        ]
+                      }),
+                      (0, o.jsx)('div', {
+                        className: 'mt-3',
+                        children: (0, o.jsx)('nav', {
+                          className: 'grid gap-0',
+                          children: e.map((function (e) {
+                            return (0, o.jsx)('a', {
+                              href: 'https://card.certux.xyz/register?referralCode=434125',
+                              className: 'flex items-center p-3 rounded-lg hover:bg-gradient-primary',
+                              children: (0, o.jsx)('div', {
+                                className: 'ml-4 text-base font-medium text-nexter-white',
+                                children: 'Certux Card'
+                              })
+                            }, 'Certux Card')
+                          }))
+                        })
                       }),
                       (0, o.jsx)('div', {
                         className: 'mt-3',

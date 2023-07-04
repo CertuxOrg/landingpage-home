@@ -74,6 +74,10 @@ sup {
   top: -.5em
 }
 
+.m-t-3 {
+  margin-top: .3rem;
+}
+
 table {
   text-indent: 0;
   border-color: inherit;
@@ -456,6 +460,12 @@ select {
 @media (min-width: 640px) {
   .container {
     max-width: 640px
+  }
+}
+
+@media (max-width: 640px) {
+  .hide-sm {
+    display: none!important;
   }
 }
 
